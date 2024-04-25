@@ -49,7 +49,12 @@ console.log(bookingData);
                             <option>Lagos(Los)</option>
                             <option>Abuja(Abj)</option>
                             <option>Enugu(En)</option>
-                            <option>Kano(Ko)</option>
+                            <option>Kano</option>
+                            <option>Kaduna(Kn)</option>
+                            <option>Asaba</option>
+                            <option>Owerri</option>
+                            <option>Part Harcourt(Ph)</option>
+                            <option>Jos</option>
                             
                         </select>
                     </div>
@@ -65,7 +70,12 @@ console.log(bookingData);
                             <option>Lagos(Los)</option>
                             <option>Abuja(Abj)</option>
                             <option>Enugu(En)</option>
-                            <option>Kano(Ko)</option>
+                            <option>Kano</option>
+                            <option>Kaduna(Kn)</option>
+                            <option>Asaba</option>
+                            <option>Owerri</option>
+                            <option>Part Harcourt(Ph)</option>
+                            <option>Jos</option>
                             
                         </select>
                     </div>
