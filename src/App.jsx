@@ -1,21 +1,32 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Booking from './components/Booking';
 import Header from './components/Header';
-import Table from './components/Table';
+ import Home from './pages/Home/Home';
+import LoginSignUp from './pages/LoginSignUp/LoginSignUp';
+import Footer from './components/Footer/Footer';
+
 
 
 
 function App() {
 
   return (
-    // <div className='bg-[url(../src/assets/airport5.jpg)] bg-cover bg-no-repeat'>
 
     <div  className='bg-[url(../src/assets/airport5.jpg)] bg-cover bg-no-repeat'>
-     <Header />
-     <section className='h-screen'>
-     <Booking />
-      <Table />
-     </section>
+     
+     <BrowserRouter>
+      <Header />
+      
+      <Routes>
+      <Route path='/' element={<Home />} />
+      <Route/>
+          <Route path='/Login' element={<LoginSignUp />} />
+      </Routes>
+
+      <Footer />
+     </BrowserRouter>
+
+
     </div>
   )
 }
